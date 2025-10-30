@@ -1,4 +1,3 @@
-// frontend/src/pages/Settings.jsx
 import { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import api from '../utils/api';

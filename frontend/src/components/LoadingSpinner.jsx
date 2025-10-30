@@ -1,4 +1,3 @@
-// frontend/src/components/LoadingSpinner.jsx
 const LoadingSpinner = ({ fullScreen = true, message = 'Exploring Hallownest...' }) => {
   const content = (
     <div className="flex flex-col items-center justify-center space-y-6">

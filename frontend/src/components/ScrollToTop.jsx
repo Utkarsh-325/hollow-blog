@@ -1,20 +1,14 @@
-// frontend/src/components/ProtectedRoute.jsx
-import { Navigate } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext';
-import LoadingSpinner from './LoadingSpinner';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
-const ProtectedRoute = ({ children }) => {
-  const { isAuthenticated, loading } = useAuth();
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
 
-  if (loading) {
-    return <LoadingSpinner message="Verifying your path..." />;
-  }
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
-  if (!isAuthenticated) {
-    return <Navigate to="/login" replace />;
-  }
-
-  return children;
+  return null;
 };
 
-export default ProtectedRoute;
+export default ScrollToTop;

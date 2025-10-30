@@ -1,4 +1,3 @@
-// frontend/src/pages/CreatePost.jsx
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ReactQuill from 'react-quill';

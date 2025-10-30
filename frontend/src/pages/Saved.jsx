@@ -1,4 +1,3 @@
-// frontend/src/pages/Saved.jsx
 import { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import api from '../utils/api';

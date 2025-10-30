@@ -1,4 +1,3 @@
-// frontend/src/components/ConfirmModal.jsx
 const ConfirmModal = ({ isOpen, onClose, onConfirm, title, message, confirmText = 'Delete', cancelText = 'Cancel' }) => {
   if (!isOpen) return null;
 

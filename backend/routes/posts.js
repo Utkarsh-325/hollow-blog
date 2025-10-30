@@ -1,4 +1,3 @@
-// backend/routes/posts.js
 import express from 'express';
 import Post from '../models/Post.js';
 import User from '../models/User.js';

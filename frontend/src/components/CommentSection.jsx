@@ -1,4 +1,3 @@
-// frontend/src/components/CommentSection.jsx
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { formatDistanceToNow } from 'date-fns';

@@ -1,4 +1,3 @@
-// frontend/src/pages/PostList.jsx
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import api from '../utils/api';
